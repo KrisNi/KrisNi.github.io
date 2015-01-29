@@ -35,15 +35,19 @@ body {
 }
 
 .worldmap {
-	text-align: center;
+	border: 15px solid #2c3e50;
+	box-sizing: border-box;
+    margin: 20px auto 20px;
+    min-width: 800px;
+    width: 60%;
+    padding: 10px;
 }
 
 .worldmap img {
-	margin: 2% auto 5% auto;
-	width: 60%;
-	padding: 10px;
-	border: 15px solid #2c3e50;
-	opacity: 0.9;
+    display: block;
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
 }
 
 .legends {
@@ -74,4 +78,51 @@ body {
 
 .boston img {
 	width: 100%;
+}
+
+.timeline {
+	width: 800px;
+	margin: 50px auto;
+	box-sizing: border-box;
+}
+
+.event {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 250px;
+}
+
+.event img {
+	width: 85px;
+}
+
+.event .description {
+	float: right;
+	color: #333333;
+	line-height: 34px;
+    font-family: "Karla",sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.description b {
+	display: block;
+}
+
+.skill {
+    border: 1px solid #50a9d1;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 7px 18px;
+    text-transform: uppercase;
+}
+
+.design {
+	border-color: #86be91;
 }
