@@ -81,7 +81,7 @@ body {
 }
 
 .timeline {
-	width: 800px;
+	width: 700px;
 	margin: 50px auto;
 	box-sizing: border-box;
 }
@@ -90,7 +90,7 @@ body {
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
-	height: 250px;
+	margin-bottom: 30px;
 }
 
 .event img {
@@ -125,4 +125,16 @@ body {
 
 .design {
 	border-color: #86be91;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1; /* IE6&7 */
 }
